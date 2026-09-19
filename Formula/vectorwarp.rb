@@ -1,10 +1,10 @@
 class Vectorwarp < Formula
   desc "Passive-radar settings and processor application"
   homepage "https://github.com/mickeyslaven/blah2-VectorWarp"
-  url "https://github.com/mickeyslaven/blah2-VectorWarp/archive/62c6337c77c0f6af86627396f9331e994128fa5d.tar.gz"
-  sha256 "a1b9f560fe28c663b2e624b0f2cda5bc53546b32b3a78252fc6d175e0d129502"
+  url "https://github.com/mickeyslaven/blah2-VectorWarp/archive/68220759d77437675a9c5814768bdca2d75ba0ad.tar.gz"
+  sha256 "9425250a081f7f6d5a3cd13f4ce312f8d90e16f9526549a87b6935119db9af1d"
   version "0.1.7"
-  revision 380
+  revision 383
   license "MIT"
 
   depends_on :macos
