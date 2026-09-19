@@ -1,0 +1,12 @@
+{
+  "files": {
+    "Formula/vectorwarp-heimdall.rb": "d143d4f27cd79a1514b84fca9ca92c7889c53137afaf27fe4450d287457daf13",
+    "Formula/vectorwarp.rb": "bc4835c680d149f0d2f82ccdf2bcf5d6c392ce7323403515d6270a7b7b09d62c",
+    "README.md": "1197a620558fedb5233cd3e5a1c5aacf54d192b7f7108074bbc1eebd7ed429ee"
+  },
+  "revision": 367,
+  "source_commit": "aa6584fcad3a483f6442edc6568cb5e520eb4823",
+  "source_sha256": "e20b50b84830e0824e458bdfd53e53b4facb4e8bb82f0bbdd83c75e2b837e04c",
+  "source_url": "https://github.com/mickeyslaven/blah2-VectorWarp/archive/aa6584fcad3a483f6442edc6568cb5e520eb4823.tar.gz",
+  "version": "0.1.7"
+}
