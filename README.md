@@ -1,16 +1,16 @@
 # VectorWarp Homebrew tap
 
-Generated from immutable main commit `b3f47c0fda564ef9e1732bd25d96a9913bd527b6`, with version `0.1.7` and
-Homebrew revision `410`. Source SHA-256:
+Generated from immutable main commit `68d91003243951cd4ac09687297226d6c358909e`, with version `0.1.7` and
+Homebrew revision `412`. Source SHA-256:
 
 ```
-e333a4c17c9871f517746f15ad8b4dfebe322fcc76fb51f2ff02b65a9b5c6a0d
+09f91b2e032c846035b1b7bc5493f150dec5b452b15cbbe5ea9f643aa24738e6
 ```
 
 The main-branch publishing workflow builds and tests both formulas on Apple
 Silicon before updating this tap. The formulas build from source; no bottles
 are produced. Intel macOS remains experimental and is not qualified by the
-Apple Silicon job. See the [validation limits](https://github.com/mickeyslaven/blah2-VectorWarp/blob/b3f47c0fda564ef9e1732bd25d96a9913bd527b6/docs/MACOS_TEST_MATRIX.md).
+Apple Silicon job. See the [validation limits](https://github.com/mickeyslaven/blah2-VectorWarp/blob/68d91003243951cd4ac09687297226d6c358909e/docs/MACOS_TEST_MATRIX.md).
 
 ## Install
 
