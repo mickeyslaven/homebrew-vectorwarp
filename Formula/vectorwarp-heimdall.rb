@@ -4,10 +4,10 @@
 class VectorwarpHeimdall < Formula
   desc "Native KrakenSDR controller for VectorWarp"
   homepage "https://github.com/krakenrf/krakensdr_suite"
-  url "https://github.com/mickeyslaven/blah2-VectorWarp/archive/68d91003243951cd4ac09687297226d6c358909e.tar.gz"
-  sha256 "09f91b2e032c846035b1b7bc5493f150dec5b452b15cbbe5ea9f643aa24738e6"
+  url "https://github.com/mickeyslaven/blah2-VectorWarp/archive/8ad97a6ff587e5741ae373cc91dffe4208c0729e.tar.gz"
+  sha256 "d02f9b41fbe48b0b47cad4f6e23e55afe6ac66ac19bc648cd48633c35f8d10ca"
   version "0.1.7"
-  revision 412
+  revision 418
 
   depends_on :macos
   depends_on "cmake" => :build
@@ -19,8 +19,8 @@ class VectorwarpHeimdall < Formula
   depends_on "libusb"
 
   resource "suite" do
-    url "https://codeload.github.com/krakenrf/krakensdr_suite/tar.gz/a541354bc4fa02261cb521d98937842591e8ce27"
-    sha256 "acaa914e816fcb0eee4984806d53e70d10e37dab23dae1cb15a505ff8476b46a"
+    url "https://codeload.github.com/krakenrf/krakensdr_suite/tar.gz/f648514df41d90efd89984edad8b83c3680167f5"
+    sha256 "3c398220f360250a66a0ee3c6e032c65110c2ff3ea9fa17cb4b1c088af5be663"
   end
   resource "rtlsdr" do
     url "https://codeload.github.com/krakenrf/librtlsdr/tar.gz/08fb08165ecfcdd954c7a20cb1bbfbc159294f0e"
