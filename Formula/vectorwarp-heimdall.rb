@@ -4,10 +4,10 @@
 class VectorwarpHeimdall < Formula
   desc "Native KrakenSDR controller for VectorWarp"
   homepage "https://github.com/krakenrf/krakensdr_suite"
-  url "https://github.com/mickeyslaven/blah2-VectorWarp/archive/dd1b589b472a185ba8d4f38d6df1efb8b9f424e1.tar.gz"
-  sha256 "53dc9a7692d041c624a1acb3987b45d706550aedbb5b650a687c74d7b52c9c91"
+  url "https://github.com/mickeyslaven/blah2-VectorWarp/archive/a5f019da8573397f09c91c1d4932b8d697352f28.tar.gz"
+  sha256 "82d9adb4cd79a580929bd1e86d775f6bd45bd618bff1dc240605415fdb1d1479"
   version "0.1.7"
-  revision 471
+  revision 499
 
   depends_on :macos
   depends_on "cmake" => :build
@@ -15,12 +15,11 @@ class VectorwarpHeimdall < Formula
   depends_on "pkgconf" => :build
   depends_on "python@3.12" => :build
   depends_on "eigen" => :build
-  depends_on "fftw"
   depends_on "libusb"
 
   resource "suite" do
-    url "https://codeload.github.com/krakenrf/krakensdr_suite/tar.gz/f648514df41d90efd89984edad8b83c3680167f5"
-    sha256 "3c398220f360250a66a0ee3c6e032c65110c2ff3ea9fa17cb4b1c088af5be663"
+    url "https://codeload.github.com/krakenrf/krakensdr_suite/tar.gz/3a95e19f7f81b078e60a4f6eb86e738418756f5e"
+    sha256 "b8c33ba26a20b10fa186f09af4a6ee76bc4b7e436a68287346227d4e8b2e80d0"
   end
   resource "rtlsdr" do
     url "https://codeload.github.com/krakenrf/librtlsdr/tar.gz/08fb08165ecfcdd954c7a20cb1bbfbc159294f0e"
@@ -49,6 +48,7 @@ class VectorwarpHeimdall < Formula
     # physical acceptance checks, never implied by a successful package test.
     assert_match "num-elements", shell_output("#{bin}/vectorwarp-heimdall --help")
     assert_predicate libexec/"lib/kraken/librtlsdr.0.dylib", :file?
+    assert_predicate libexec/"share/heimdall/licenses/pffft-LICENSE.txt", :file?
     receipt = JSON.parse((libexec/"share/heimdall/build.json").read)
     assert_equal false, receipt.fetch("hardwareTested")
   end
