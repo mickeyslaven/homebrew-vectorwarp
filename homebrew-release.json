@@ -1,12 +1,12 @@
 {
   "files": {
-    "Formula/vectorwarp-heimdall.rb": "f1fcb5efc05eeb68cefd9e7af04d78afcac476e7f0c0fd6d36fd266c5ecb2e14",
-    "Formula/vectorwarp.rb": "6e9369576c6398548973e34c19f8738fa7ef916c475ccd28fb46fbd703462df1",
-    "README.md": "709031721d5ce59cee08263513433b94a6f634e8c7908316c6c780a812c17c34"
+    "Formula/vectorwarp-heimdall.rb": "317586c0f3e9459a640f3e77053669525d9b6a7ce5818f093915476080649a5a",
+    "Formula/vectorwarp.rb": "01f47775933fa8d9d1040bb2530ca710e38d0fd53f59461216a4f2842756acd4",
+    "README.md": "64270d46f1539ac0bc4516a5a5fd7e72c5ca0fbc17d59efce3ca41b708fcfefa"
   },
-  "revision": 555,
-  "source_commit": "477a21c45923b217339ff5e35f93a9db11c13661",
-  "source_sha256": "971c7324e35f8e6648da88acd58854424a2632c65122b03b12c46bc9f7f4c9c0",
-  "source_url": "https://github.com/mickeyslaven/blah2-VectorWarp/archive/477a21c45923b217339ff5e35f93a9db11c13661.tar.gz",
+  "revision": 557,
+  "source_commit": "7fea13c3d40fc5d3790b7ab9ebe780bb2d82b4fc",
+  "source_sha256": "81531409a59566900eab26121c071d03fc51626672fa3741ceb31860b9ec0dea",
+  "source_url": "https://github.com/mickeyslaven/blah2-VectorWarp/archive/7fea13c3d40fc5d3790b7ab9ebe780bb2d82b4fc.tar.gz",
   "version": "0.1.7"
 }
