@@ -1,10 +1,10 @@
 class Vectorwarp < Formula
   desc "Passive-radar settings and processor application"
   homepage "https://github.com/mickeyslaven/blah2-VectorWarp"
-  url "https://github.com/mickeyslaven/blah2-VectorWarp/archive/d92b996fce70811341dc051f811c2f6d441650a9.tar.gz"
-  sha256 "7061622338efba08ea66017d8dd7963074be67141776321d90f0a81725efc57c"
-  version "0.1.7"
-  revision 1190
+  url "https://github.com/mickeyslaven/blah2-VectorWarp/archive/6d57b8f04a40b626619a57544d242dffd60ec0f3.tar.gz"
+  sha256 "5f9e6b574aeb8a56db2d4fdb22b1a304f384c10bb140ec24f4d2f6c9db047aab"
+  version "0.1.36"
+  revision 1200
   license "MIT"
 
   depends_on :macos
@@ -54,6 +54,9 @@ class Vectorwarp < Formula
            "--jobs", ENV.make_jobs.to_s,
            "--output-dir", "#{libexec}"
     (libexec/"runtime").install node_runtime => "node"
+    (libexec/"BUILD-RECEIPT.json").write JSON.generate({
+      schema: 1, version: version.to_s, sourceCommit: "6d57b8f04a40b626619a57544d242dffd60ec0f3", package: "homebrew"
+    }) + "\n"
     bin.install_symlink libexec/"script/vectorwarp-macos" => "vectorwarp"
     # Keep the Kraken-specific driver private to its companion formula.
     kraken = Formula["mickeyslaven/vectorwarp/vectorwarp-heimdall"].opt_libexec
