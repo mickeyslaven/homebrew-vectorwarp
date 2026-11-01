@@ -4,10 +4,10 @@
 class VectorwarpHeimdall < Formula
   desc "Native KrakenSDR controller for VectorWarp"
   homepage "https://github.com/krakenrf/krakensdr_suite"
-  url "https://github.com/mickeyslaven/blah2-VectorWarp/archive/6d57b8f04a40b626619a57544d242dffd60ec0f3.tar.gz"
-  sha256 "5f9e6b574aeb8a56db2d4fdb22b1a304f384c10bb140ec24f4d2f6c9db047aab"
-  version "0.1.36"
-  revision 1200
+  url "https://github.com/mickeyslaven/blah2-VectorWarp/archive/8d7a867ef98113495b3627abe38a6d753795c042.tar.gz"
+  sha256 "672033c0efce7daaaabc1774d4af8289cb9717b3bbdfb3f35128e71324f70883"
+  version "0.1.37"
+  revision 1203
 
   depends_on :macos
   depends_on "cmake" => :build
