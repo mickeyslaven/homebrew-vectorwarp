@@ -1,10 +1,10 @@
 # VectorWarp Homebrew tap
 
-Generated from immutable main commit `ffc82b3ed13357c9462cbe7049b0d32070df96ad`, with version `0.1.7` and
-Homebrew revision `1187`. Source SHA-256:
+Generated from immutable main commit `d92b996fce70811341dc051f811c2f6d441650a9`, with version `0.1.7` and
+Homebrew revision `1190`. Source SHA-256:
 
 ```
-be450d2589d1b2edf8041471c9ed18bd98a071c8465c6dc2ecbcdbde816e50b9
+7061622338efba08ea66017d8dd7963074be67141776321d90f0a81725efc57c
 ```
 
 The main-branch publishing workflow builds and tests both formulas on Apple
