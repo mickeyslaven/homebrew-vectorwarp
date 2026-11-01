@@ -6,7 +6,7 @@ class VectorwarpHeimdall < Formula
   homepage "https://github.com/krakenrf/krakensdr_suite"
   url "https://github.com/mickeyslaven/blah2-VectorWarp/archive/7e872c0d26ff2d69501732c139f385e1c0a397e5.tar.gz"
   sha256 "a4594a4b9a652d756462a43d36efbdd2d409ec44929ca8d8087cd7b2c8576940"
-  version "0.1.37"
+  version "0.1.38"
   revision 1214
 
   depends_on :macos

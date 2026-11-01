@@ -1,6 +1,6 @@
 # VectorWarp Homebrew tap
 
-Generated from immutable main commit `7e872c0d26ff2d69501732c139f385e1c0a397e5`, with version `0.1.37` and
+Generated from immutable main commit `7e872c0d26ff2d69501732c139f385e1c0a397e5`, with version `0.1.38` and
 Homebrew revision `1214`. Source SHA-256:
 
 ```
